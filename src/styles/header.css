@@ -1,0 +1,73 @@
+.header {
+    margin-top: 80px;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--#bfc1d9);
+    /*background-image: url("../../public/assets/fondo.jpg");*/
+    background: rgb(68,45,71);
+background: linear-gradient(45deg, rgba(68,45,71,1) 0%, rgba(108,71,116,1) 36%, rgba(158,112,162,1) 79%, rgba(214,199,221,1) 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-header {
+    height: 85px;
+    width: 200px;
+}
+
+.containText {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.title {
+    color: var(--white);
+    font-size: 70px;
+    font-weight: var(--titulo);
+}
+
+.parrafo {
+    color: var(--white);
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.btnProductos {
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: var(--lightBlue);
+    text-decoration: none;
+    color: var(--white);
+    border-radius: 30px;
+}
+
+.btnProductos:hover {
+    box-shadow: 0 0 15px var(--lightBlue);
+}
+
+@media (max-width:700px){
+
+    .containText{
+        align-items: center;
+        margin-left: 0px;
+        gap: 10px;
+        margin-bottom: 1.5rem;
+        padding-top: 1.5rem;
+    }
+    .parrafo{
+        margin-bottom: 25px;
+    }
+}
+
